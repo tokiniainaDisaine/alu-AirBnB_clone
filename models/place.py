@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+"""
+doc: to do later
+"""
+
+from models.base_model import BaseModel
+
+class Place(BaseModel):
+    user_id = ""
+    name = ""
+    city_id = ""
+    description = ""
+    number_rooms = 0
+    number_bathrooms = 0
+    max_guest = 0
+    price_by_night = 0
+    latitude = 0
+    longitude = 0
