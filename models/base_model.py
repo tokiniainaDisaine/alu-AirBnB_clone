@@ -11,6 +11,7 @@ from sqlalchemy import Column, String, DateTime
 
 Base = declarative_base()
 
+
 class BaseModel:
     """Base class for all AirBnB clone models"""
 

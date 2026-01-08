@@ -5,7 +5,9 @@ doc: to do later
 
 from models.base_model import BaseModel
 
+
 class Place(BaseModel):
+    """Base class for all AirBnB clone models"""
     user_id = ""
     name = ""
     city_id = ""

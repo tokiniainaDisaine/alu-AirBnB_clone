@@ -2,10 +2,13 @@
 """
 doc: to fill later
 """
-
 import cmd
 
+
 class MyCommand(cmd.Cmd):
+    """
+    doc: to fill later
+    """
     prompt = '(hbnb) '
 
     def do_quit(self, arg):
