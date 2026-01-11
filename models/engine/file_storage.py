@@ -16,7 +16,7 @@ class FileStorage:
             for key, obj in obj_dict.items():
                 if type(cls) is str:
                     cls = eval(cls)
-                if type(obj) is cls:
+                if (type(obj) is cls):
                     cls_dic[key] = obj
             return cls_dic
         return obj_dict
@@ -45,13 +45,9 @@ class FileStorage:
         from models.review import Review
 
         classes = {
-            'BaseModel': BaseModel,
-            'User': User,
-            'Place': Place,
-            'State': State,
-            'City': City,
-            'Amenity': Amenity,
-            'Review': Review
+                    'BaseModel': BaseModel, 'User': User, 'Place': Place,
+                    'State': State, 'City': City, 'Amenity': Amenity,
+                    'Review': Review
                   }
         try:
             temp = {}
